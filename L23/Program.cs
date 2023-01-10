@@ -8,7 +8,7 @@ int GetUserValue(string message)
      int result = int.Parse(Console.ReadLine()!);
      return result;
 }
-void cub(int n)
+void cube(int n)
 {
     for (int i = 1; i < n + 1; i = i + 1)
     {
@@ -20,4 +20,4 @@ void cub(int n)
     }
 }
 int n = GetUserValue("Введите n: ");
-cub(n);
+cube(n);
